@@ -7,6 +7,7 @@
 
 	&--open,
 	&__drawer {
+		height: -webkit-fill-available !important;
 		width: $mdc-persistent-drawer-custom-width;
 		-webkit-box-shadow: 5px 0px 9px 0px rgba(0,0,0,0.06);
 		-moz-box-shadow: 5px 0px 9px 0px rgba(0,0,0,0.06);
@@ -15,7 +16,7 @@
 			.mdc-drawer-menu{
 				padding: 25px 0 200px 0;
 				position: relative;
-				overflow: hidden;
+				overflow: auto;
 				max-height: 500px;
 			}
 		}

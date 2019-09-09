@@ -17000,6 +17000,7 @@ footer {
   top: 0;
   left: 0; }
   .mdc-persistent-drawer--open, .mdc-persistent-drawer__drawer {
+    height: -webkit-fill-available !important;
     width: 255px;
     -webkit-box-shadow: 5px 0px 9px 0px rgba(0, 0, 0, 0.06);
     -moz-box-shadow: 5px 0px 9px 0px rgba(0, 0, 0, 0.06);
@@ -17007,7 +17008,7 @@ footer {
     .mdc-persistent-drawer--open .mdc-list-group .mdc-drawer-menu, .mdc-persistent-drawer__drawer .mdc-list-group .mdc-drawer-menu {
       padding: 25px 0 200px 0;
       position: relative;
-      overflow: hidden;
+      overflow: auto;
       max-height: 500px; }
   .mdc-persistent-drawer__drawer {
     border-right: 0; }
